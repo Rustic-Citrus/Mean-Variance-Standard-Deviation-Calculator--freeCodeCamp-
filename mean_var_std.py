@@ -4,9 +4,9 @@ def calculate(list):
     if len(list) == 9:
         array = np.array(
             [
-                [n for n in list[:3]],
-                [n for n in list[3:6]],
-                [n for n in list[6:len(list)]]
+                [num for num in list[:3]],
+                [num for num in list[3:6]],
+                [num for num in list[6:len(list)]]
             ]
         )
     
